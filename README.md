@@ -4,15 +4,16 @@ This project is a template to create a typescript utility library based on [Vino
 
 This template is configured to use:
 
-|          Feature          | Technology used |
-| :-----------------------: | :-------------: |
-|      Package manager      |      PNPM       |
-|         Framework         |      React      |
-|      Package bundler      |      Vite       |
-|   Programming language    |   Typescript    |
-|       Basic linting       |     ESLint      |
-|      Code formatting      |    Prettier     |
-| Linting only staged files |   lint-staged   |
+|          Feature          |        Technology used         |
+| :-----------------------: | :----------------------------: |
+|      Package manager      |              PNPM              |
+|         Framework         |             React              |
+|      Package bundler      |              Vite              |
+|   Programming language    |           Typescript           |
+|       Basic linting       |             ESLint             |
+|      Code formatting      |            Prettier            |
+|           Test            | Vitest + testing-library/react |
+| Linting only staged files |          lint-staged           |
 
 ## How to use ?
 
