@@ -7,9 +7,12 @@ export default defineConfig({
 	build: {
 		lib: {
 			entry: resolve(__dirname, "src/index.ts"),
-			name: "Lib",
-			fileName: "node-package",
+			name: "ReactLib",
+			fileName: "react-package",
 			formats: ["es", "cjs", "umd"],
+		},
+		rollupOptions: {
+			external: ["react", "react-dom"],
 		},
 	},
 	resolve: { alias: { src: resolve("src/") } },
