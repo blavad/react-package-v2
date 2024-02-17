@@ -1,2 +1,2 @@
-export { add } from "./add/add";
-export { sub } from "./sub/sub";
+export { AddButton } from "./add/addButton";
+export { SubButton } from "./sub/subButton";

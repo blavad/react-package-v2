@@ -7,6 +7,7 @@ This template is configured to use:
 |          Feature          | Technology used |
 | :-----------------------: | :-------------: |
 |      Package manager      |      PNPM       |
+|         Framework         |      React      |
 |      Package bundler      |      Vite       |
 |   Programming language    |   Typescript    |
 |       Basic linting       |     ESLint      |
